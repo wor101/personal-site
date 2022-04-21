@@ -20,9 +20,9 @@ const Navbar = ({ toggleDropdown }) => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-30 bg-black h-14">
       <div className="flex justify-between max-w-7xl mx-auto md:px-7 h-14">
-        <a href="#home" className={navLinkFormatting}>Will Rossen</a>
+        <a href="/#home" className={navLinkFormatting}>Will Rossen</a>
         <div className="flex justify-end">
-          <NavLink href="/" text="Home" />
+          <NavLink href="/#home" text="Home" />
           <NavLink href="#about" text="About" />
           <NavLink href="#contact" text="Contact" />
           <NavLink href="/projects" text="Projects" />

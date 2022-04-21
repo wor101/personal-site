@@ -5,7 +5,7 @@ import Navbar from './components/Navbar'
 import Dropdown from './components/Dropdown'
 import Home from './pages/home'
 import Footer from './components/Footer'
-import Projects from './components/Projects';
+import Projects from './pages/projects';
 
 function App() {
   const [dropdownVisible, setDropdownVisible] = useState(false)

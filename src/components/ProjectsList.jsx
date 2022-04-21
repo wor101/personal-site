@@ -20,7 +20,7 @@ const ProjectLink = ({ image, imageStyle, href, title, subtitle }) => {
   )
 }
 
-const Projects = () => {
+const ProjectsList = () => {
   return (
     <div className="flex place-content-center min-h-screen bg-white">
       <div className="grow flex flex-col  max-w-7xl px-7 pt-7 mt-14  space-y-6">
@@ -36,7 +36,7 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default ProjectsList
 
 
 /*
