@@ -1,11 +1,14 @@
 import './App.css';
 import { useState, useEffect } from 'react'
+import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Dropdown from './components/Dropdown'
+import Home from './pages/home'
 import Hero from './components/Hero'
 import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Projects from './components/Projects';
 
 function App() {
   const [dropdownVisible, setDropdownVisible] = useState(false)
@@ -34,9 +37,10 @@ function App() {
     <div className="bg-black">
       <Navbar toggleDropdown={toggleDropdown} />
       {dropdownVisible ? <Dropdown toggleDropdown={toggleDropdown} /> : null}
-      <Hero />
-      <About />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>      
       <Footer />
     </div>
   );

@@ -11,10 +11,10 @@ const NavLink = ({ href, text, toggleDropdown}) => {
 const Dropdown = ({toggleDropdown}) => {
   return (
     <div className="fixed top-14 left-0 right-0 z-30">
-      <NavLink href="#home" text="Home" toggleDropdown={toggleDropdown} />
+      <NavLink href="/" text="Home" toggleDropdown={toggleDropdown} />
       <NavLink href="#about" text="About" toggleDropdown={toggleDropdown} />
       <NavLink href="#contact" text="Contact" toggleDropdown={toggleDropdown} />
-      <NavLink href="#projects" text="Projects" toggleDropdown={toggleDropdown} />
+      <NavLink href="/projects" text="Projects" toggleDropdown={toggleDropdown} />
     </div>
   )
 }
