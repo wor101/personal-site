@@ -5,8 +5,11 @@ import Navbar from './components/Navbar'
 import Dropdown from './components/Dropdown'
 import Home from './pages/home'
 import Footer from './components/Footer'
-import Projects from './pages/projects';
-import CoreSpace from './pages/corespace';
+import Projects from './pages/projects'
+import CoreSpace from './pages/corespace'
+import NPCtracker from './pages/npctracker'
+import Chimera from './pages/chimera'
+import Site from './pages/site'
 
 function App() {
   const [dropdownVisible, setDropdownVisible] = useState(false)
@@ -38,7 +41,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/projects/corespace" element={< CoreSpace/>} />
+        <Route path="/projects/corespace" element={<CoreSpace />} />
+        <Route path="/projects/npctracker" element={<NPCtracker />} />
+        <Route path="/projects/chimera" element={<Chimera />} />
+        <Route path="/projects/site" element={<Site />} />
       </Routes>      
       <Footer />
     </div>
