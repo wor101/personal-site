@@ -1,10 +1,11 @@
 import './App.css';
 import { useState, useEffect } from 'react'
-import { Navbar } from './components/Navbar'
+import Navbar from './components/Navbar'
 import Dropdown from './components/Dropdown'
 import Hero from './components/Hero'
 import About from './components/About'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
   const [dropdownVisible, setDropdownVisible] = useState(false)
@@ -36,6 +37,7 @@ function App() {
       <Hero />
       <About />
       <Contact />
+      <Footer />
     </div>
   );
 }

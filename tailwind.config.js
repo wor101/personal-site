@@ -10,7 +10,6 @@ module.exports = {
     },
     fontFamily: {
       'koulen': ['Koulen'],
-      'poppins': ['Poppins'],
       'sans ': ['Source Sans Pro', 'sans-serif'],
       'mono': ['ui-monospace', 'SFMono-Regular']
     },

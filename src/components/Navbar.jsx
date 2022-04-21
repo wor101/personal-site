@@ -33,7 +33,4 @@ const Navbar = ({ toggleDropdown }) => {
   )
 }
 
-export { 
-  Navbar,
-  NavLink
-}
+export default Navbar
