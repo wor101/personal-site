@@ -1,7 +1,10 @@
 import './App.css';
-import { Navbar } from './components/Navbar'
-import Dropdown from './components/Dropdown';
 import { useState, useEffect } from 'react'
+import { Navbar } from './components/Navbar'
+import Dropdown from './components/Dropdown'
+import Hero from './components/Hero'
+import About from './components/About'
+import Contact from './components/Contact'
 
 function App() {
   const [dropdownVisible, setDropdownVisible] = useState(false)
@@ -14,15 +17,15 @@ function App() {
   useEffect(() => {
     const hideMenu = () => {
       if (window.innerWidth > 768 && dropdownVisible === true) {
-        setDropdownVisible(false);
-        console.log('resized dropdown');
+        setDropdownVisible(false)
+        console.log('resized dropdown')
       }
     }
 
-    window.addEventListener('resize', hideMenu);
+    window.addEventListener('resize', hideMenu)
 
     return () => {
-      window.removeEventListener('resize', hideMenu);
+      window.removeEventListener('resize', hideMenu)
     }
   }, [dropdownVisible]);
 
@@ -30,19 +33,9 @@ function App() {
     <div className="bg-black">
       <Navbar toggleDropdown={toggleDropdown} />
       {dropdownVisible ? <Dropdown toggleDropdown={toggleDropdown} /> : null}
-      
-
-      <section className="flex justify-center min-h-screen text-center before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:bg-mackinaw before:bg-center before:bg-no-repeat before:bg-cover before:bg-fixed before:opacity-40 before:min-h-screen ">
-        <div className="relative grow flex flex-col max-w-7xl px-7 place-content-center">
-          <h1 className="font-sans font-bold text-5xl text-white uppercase">Will Rossen</h1>
-          <h2 className="font-sans text-xl text-white uppercase tracking-widest">Full Stack Software Developer</h2>
-          <hr className="my-4 h-px bg-white w-full"></hr>
-          <div>
-            <a href="#about" className="font-sans text-white uppercase border border-white py-2 px-4 rounded-full hover:bg-white hover:text-black">Read More</a>
-          </div>          
-        </div>
-      </section>
-      <p className="text-white-700">stuff</p>
+      <Hero />
+      <About />
+      <Contact />
     </div>
   );
 }
