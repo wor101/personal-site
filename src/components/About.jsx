@@ -4,7 +4,7 @@ import profilePic from '../images/profile_pic.jpg'
 const About = () => {
   return (
     <div className="flex place-content-center bg-slate-100 min-h-screen">
-      <div className="flex place-content-center items-center max-w-7xl px-7 space-x-6">
+      <div id="about" className="flex place-content-center items-center max-w-7xl px-7 space-x-6">
         <figure>
           <img src={profilePic} alt="profile pic" className='rounded-full max-h-80 m-auto border-2 border-black border-dotted'></img>
         </figure>
