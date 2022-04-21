@@ -6,6 +6,7 @@ import Dropdown from './components/Dropdown'
 import Home from './pages/home'
 import Footer from './components/Footer'
 import Projects from './pages/projects';
+import CoreSpace from './pages/corespace';
 
 function App() {
   const [dropdownVisible, setDropdownVisible] = useState(false)
@@ -37,6 +38,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/corespace" element={< CoreSpace/>} />
       </Routes>      
       <Footer />
     </div>

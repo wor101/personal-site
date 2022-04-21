@@ -1,10 +1,13 @@
 import React from 'react'
+import {HashLink as Link} from 'react-router-hash-link'
 
 const navLinkFormatting = "flex flex-col justify-center px-3 font-semibold text-white uppercase hover:bg-slate-600"
 
 const NavLink = ({ href, text}) => {
   return (
-    <a href={href} className={"hidden md:" + navLinkFormatting}>{text}</a>
+    <Link to={href} className="md:flex flex-col justify-center px-3 font-semibold text-white uppercase hover:bg-slate-600 hidden">
+      {text}
+    </Link>
   )
 }
 
@@ -23,8 +26,8 @@ const Navbar = ({ toggleDropdown }) => {
         <a href="/#home" className={navLinkFormatting}>Will Rossen</a>
         <div className="flex justify-end">
           <NavLink href="/#home" text="Home" />
-          <NavLink href="#about" text="About" />
-          <NavLink href="#contact" text="Contact" />
+          <NavLink href="/#about" text="About" />
+          <NavLink href="/#contact" text="Contact" />
           <NavLink href="/projects" text="Projects" />
           <MenuIcon toggleDropdown={toggleDropdown} />
         </div>
