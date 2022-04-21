@@ -4,9 +4,6 @@ import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Dropdown from './components/Dropdown'
 import Home from './pages/home'
-import Hero from './components/Hero'
-import About from './components/About'
-import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Projects from './components/Projects';
 
