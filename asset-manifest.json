@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/wor101/personal-site/static/css/main.0b18436b.css",
+    "main.js": "/wor101/personal-site/static/js/main.d8e85cd1.js",
+    "static/media/space-ship-core-space.jpg": "/wor101/personal-site/static/media/space-ship-core-space.a0503ba403dd6b10989e.jpg",
+    "static/media/dungeons-and-dragons-npc-tracker.jpg": "/wor101/personal-site/static/media/dungeons-and-dragons-npc-tracker.2afdbd38f6f0132cc389.jpg",
+    "static/media/mackinaw_sunset_1.jpg": "/wor101/personal-site/static/media/mackinaw_sunset_1.28b618ce574c628e8af5.jpg",
+    "static/media/Chimera_logo_on dark.png": "/wor101/personal-site/static/media/Chimera_logo_on dark.49d6c52ca7779e0b831d.png",
+    "static/media/profile_pic.jpg": "/wor101/personal-site/static/media/profile_pic.21dd90198157a6c80420.jpg",
+    "index.html": "/wor101/personal-site/index.html",
+    "main.0b18436b.css.map": "/wor101/personal-site/static/css/main.0b18436b.css.map",
+    "main.d8e85cd1.js.map": "/wor101/personal-site/static/js/main.d8e85cd1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b18436b.css",
+    "static/js/main.d8e85cd1.js"
+  ]
+}
