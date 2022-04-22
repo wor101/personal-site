@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import profilePic from '../images/profile_pic.jpg'
 
 const About = () => {
@@ -10,8 +11,9 @@ const About = () => {
         </figure>
         <div className="flex flex-col space-y-6">
           <h3 className="text-center text-lg">A <a href="https://launchschool.com/" className="font-semibold">LaunchSchool</a> Core Curriculum graduate and <a href="https://launchschool.com/capstone" className="font-semibold">Capstone Program</a> alumnus, eagerly starting a career as a full stack developer.</h3>
-          <div className="flex place-content-center space-x-6 text-xl">
-            <a href="#contact" className="grow max-w-sm py-1 border border-black rounded-full uppercase text-center hover:bg-black hover:text-white">Contact Me</a>
+          <div className="flex place-content-center text-xl">
+            <a href="#contact" className="grow max-w-sm py-1 mx-1 border border-black rounded-full uppercase text-center hover:bg-black hover:text-white">Contact Me</a>
+            <Link to="/projects" className="grow max-w-sm mx-1 py-1 border border-black rounded-full uppercase text-center hover:bg-black hover:text-white">Projects</Link>
           </div>
         </div>      
       </div>
