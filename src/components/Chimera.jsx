@@ -20,7 +20,7 @@ const Chimera = () => {
           <p className="text-xl">It allows software development teams to safely and easily deploy new versions of their microservices by taking advantage of the features provided by their existing service mesh</p>
           <a href="https://chimera-deploy.dev/">
             <figure className="flex place-content-center">
-              <img src={chimeraDiagram} alt="chimera logo" className="max-h-96"></img>
+              <img src={chimeraDiagram} alt="chimera logo" className="max-h-96 max-w-96"></img>
             </figure>
           </a>
           <div className="flex place-content-center text-xl">
