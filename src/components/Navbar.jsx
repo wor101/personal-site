@@ -29,7 +29,7 @@ const Navbar = ({ toggleDropdown }) => {
           <NavLink href="/#about" text="About" />
           <NavLink href="/#chimera" text="Chimera" />
           <NavLink href="/#contact" text="Contact" />
-          <NavLink href="/projects" text="Projects" />
+          <NavLink href="/#projects" text="Projects" />
           <MenuIcon toggleDropdown={toggleDropdown} />
         </div>
       </div>

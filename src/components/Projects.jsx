@@ -29,7 +29,7 @@ const ProjectSummary = ({ image, name, description, tech }) => {
 
 const Projects = () => {
   return (
-    <div className="flex place-content-center bg-slate-100 min-h-screen">
+    <div id="projects" className="flex place-content-center bg-slate-100 min-h-screen">
       <div className="grow flex flex-col  max-w-7xl px-7 pt-7 my-14  space-y-6">
         <h3 className="font-bold text-2xl uppercase text-center">Other Projects</h3>
         <div class="

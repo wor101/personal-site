@@ -10,10 +10,13 @@ const About = () => {
           <img src={profilePic} alt="profile pic" className='rounded-full max-h-80 m-auto border-2 border-black border-dotted'></img>
         </figure>
         <div className="flex flex-col space-y-6">
-          <h3 className="text-center text-lg">A <a href="https://launchschool.com/" className="font-semibold">LaunchSchool</a> Core Curriculum graduate and <a href="https://launchschool.com/capstone" className="font-semibold">Capstone Program</a> alumnus, eagerly starting a career as a full stack developer.</h3>
+          <h2 className="font-semibold text-4xl ml-6">Hi! I'm Will.</h2>
+          <h3 className="font font-semibold text-2xl ml-6">Boston, Massachusetts</h3>
+          <p className="text-left text-xl ml-6">A full-stack Software Engineer currently based in Boston, MA. Experienced in JavaScript/Node.js, React, Ruby, Go, PostgreSQL, Docker, and AWS.</p>
+          <p className="text-left text-xl ml-6">Most recently, I built <a className="font-koulen text-[#66AC9A] text-2xl" href="https://chimera-deploy.dev" target="_blank" rel="noreferrer">Chimera</a>, an open-source tool for automating canary deployments of containerized microservices.</p>
           <div className="flex place-content-center text-xl">
             <a href="#contact" className="grow max-w-sm py-1 mx-1 border border-black rounded-full uppercase text-center hover:bg-black hover:text-white">Contact Me</a>
-            <Link to="/projects" className="grow max-w-sm mx-1 py-1 border border-black rounded-full uppercase text-center hover:bg-black hover:text-white">Projects</Link>
+            {/* <Link to="/projects" className="grow max-w-sm mx-1 py-1 border border-black rounded-full uppercase text-center hover:bg-black hover:text-white">Projects</Link> */}
           </div>
         </div>      
       </div>
