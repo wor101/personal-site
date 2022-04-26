@@ -6,6 +6,11 @@ module.exports = {
     extend: {
       backgroundImage: {
         'mackinaw': "url('./images/mackinaw_sunset_1.jpg')",
+      },
+      spacing: {
+        '100': '30rem',
+        '110': '40rem',
+        '120': '50rem'
       }
     },
     fontFamily: {

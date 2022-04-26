@@ -1,15 +1,18 @@
 import React from 'react'
 import chimeraLogo from  '../images/Chimera_graphic_color.png'
+import chimeraLogoText from '../images/Chimera_logo_on_dark.png'
 import chimeraDiagram from '../images/Canary-Full-Diagram.png'
 
 const Chimera = () => {
   return (
-    <div className="flex place-content-center min-h-screen bg-white">
+    <div id="chimera" className="flex place-content-center min-h-screen bg-white">
       <div className="flex flex-wrap md:flex-nowrap place-content-center items-center max-w-7xl px-7 py-7">
-        <div className="flex flex-col">
-          <figure>
-            <img src={chimeraLogo} alt="chimera logo"></img>
-          </figure>
+        <div className="flex flex-col bg-[#66AC9A] rounded-full">
+          <a href="https://chimera-deploy.dev/">
+            <figure>
+              <img src={chimeraLogo} alt="chimera logo"></img>
+            </figure>
+          </a>
         </div>
         <div className="flex flex-col px-6 py-6 space-y-4">
           <h2 className="font-koulen text-9xl text-center">CHIMERA</h2>

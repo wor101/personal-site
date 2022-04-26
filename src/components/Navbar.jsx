@@ -27,6 +27,7 @@ const Navbar = ({ toggleDropdown }) => {
         <div className="flex justify-end">
           <NavLink href="/#home" text="Home" />
           <NavLink href="/#about" text="About" />
+          <NavLink href="/#chimera" text="Chimera" />
           <NavLink href="/#contact" text="Contact" />
           <NavLink href="/projects" text="Projects" />
           <MenuIcon toggleDropdown={toggleDropdown} />

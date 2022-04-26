@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import chimera from '../images/Chimera_logo_on dark.png'
+import chimera from '../images/Chimera_logo_on_dark.png'
 import coreSpace from '../images/space-ship-core-space.jpg'
 import npcTracker from '../images/dungeons-and-dragons-npc-tracker.jpg'
 import mackinaw from '../images/mackinaw_sunset_1.jpg'

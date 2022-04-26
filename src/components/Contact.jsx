@@ -74,7 +74,7 @@ const FindMe = () => {
 
 const Contact = () => {
   return (
-    <div className="flex place-content-center min-h-screen bg-slate-100">
+    <div className="flex place-content-center min-h-screen bg-white">
       <div id="contact" className="grow flex flex-col max-w-7xl px-7 place-content-center items-center space-y-2">
           <Messaging />
           <Break />
