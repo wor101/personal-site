@@ -76,9 +76,11 @@ const Contact = () => {
   return (
     <div className="flex place-content-center min-h-screen bg-white">
       <div id="contact" className="grow flex flex-col max-w-7xl px-7 place-content-center items-center space-y-2">
-          <Messaging />
-          <Break />
-          <FindMe />
+        <h2 className="font-semibold text-4xl">Lets connect!</h2>
+        <h3 className="text-2xl pb-6">I am looking for my next opportunity! Please get in touch if you think I'd be a good fit for your team..</h3>
+        <Messaging />
+        <Break />
+        <FindMe />
       </div>
     </div>
   )
