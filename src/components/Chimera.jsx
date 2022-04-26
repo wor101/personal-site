@@ -6,7 +6,7 @@ import chimeraDiagram from '../images/Canary-Full-Diagram.png'
 const Chimera = () => {
   return (
     <div id="chimera" className="flex place-content-center min-h-screen bg-white">
-      <div className="flex flex-wrap md:flex-nowrap place-content-center items-center max-w-7xl px-7 py-7">
+      <div className="flex flex-wrap md:flex-nowrap place-content-center items-center max-w-7xl px-7 py-7 overflow-hidden">
         <div className="flex flex-col bg-[#66AC9A] rounded-full">
           <a href="https://chimera-deploy.dev/">
             <figure>
@@ -15,12 +15,12 @@ const Chimera = () => {
           </a>
         </div>
         <div className="flex flex-col px-6 py-6 space-y-4">
-          <h2 className="font-koulen text-9xl text-center">CHIMERA</h2>
-          <p className="text-xl">An open-source tool for performing automated canary deployments of containerized microservices.</p>
-          <p className="text-xl">It allows software development teams to safely and easily deploy new versions of their microservices by taking advantage of the features provided by their existing service mesh</p>
+          <h2 className="font-koulen md:text-9xl text-8xl text-center">CHIMERA</h2>
+          <p className="text-xl mx-6">An open-source tool for performing automated canary deployments of containerized microservices.</p>
+          <p className="text-xl mx-6">It allows software development teams to safely and easily deploy new versions of their microservices by taking advantage of the features provided by their existing service mesh</p>
           <a href="https://chimera-deploy.dev/">
             <figure className="flex place-content-center">
-              <img src={chimeraDiagram} alt="chimera logo" className="max-h-96 max-w-96"></img>
+              <img src={chimeraDiagram} alt="chimera logo" className="max-h-80"></img>
             </figure>
           </a>
           <div className="flex place-content-center text-xl">
