@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.776c889f.css",
-    "main.js": "/static/js/main.bc90c73f.js",
+    "main.css": "/static/css/main.9aa697a6.css",
+    "main.js": "/static/js/main.db14ac57.js",
     "static/media/space-ship-core-space.jpg": "/static/media/space-ship-core-space.a0503ba403dd6b10989e.jpg",
     "static/media/mello-screenshot.png": "/static/media/mello-screenshot.77fff80ce1f1ba115064.png",
     "static/media/dungeons-and-dragons-npc-tracker.jpg": "/static/media/dungeons-and-dragons-npc-tracker.2afdbd38f6f0132cc389.jpg",
@@ -9,13 +9,14 @@
     "static/media/mackinaw_sunset_1.jpg": "/static/media/mackinaw_sunset_1.28b618ce574c628e8af5.jpg",
     "static/media/Chimera_logo_on_dark.png": "/static/media/Chimera_logo_on_dark.49d6c52ca7779e0b831d.png",
     "static/media/Chimera_graphic_color.png": "/static/media/Chimera_graphic_color.8444ee993160bdc505d7.png",
+    "static/media/resume.pdf": "/static/media/resume.58b626ed9cd504df3202.pdf",
     "static/media/profile_pic.jpg": "/static/media/profile_pic.21dd90198157a6c80420.jpg",
     "index.html": "/index.html",
-    "main.776c889f.css.map": "/static/css/main.776c889f.css.map",
-    "main.bc90c73f.js.map": "/static/js/main.bc90c73f.js.map"
+    "main.9aa697a6.css.map": "/static/css/main.9aa697a6.css.map",
+    "main.db14ac57.js.map": "/static/js/main.db14ac57.js.map"
   },
   "entrypoints": [
-    "static/css/main.776c889f.css",
-    "static/js/main.bc90c73f.js"
+    "static/css/main.9aa697a6.css",
+    "static/js/main.db14ac57.js"
   ]
 }
