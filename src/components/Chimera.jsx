@@ -1,6 +1,5 @@
 import React from 'react'
 import chimeraLogo from  '../images/Chimera_graphic_color.png'
-import chimeraLogoText from '../images/Chimera_logo_on_dark.png'
 import chimeraDiagram from '../images/Canary-Full-Diagram.png'
 
 const Chimera = () => {
@@ -29,7 +28,6 @@ const Chimera = () => {
             <a href="https://chimera-deploy.dev/#eight" target="_blank" rel="noreferrer" className="mt-6 grow max-w-sm py-1 mx-1 border border-black rounded-full uppercase text-center hover:bg-black hover:text-white">Presentation</a>
           </div>
         </div>
-
       </div>
     </div>
   )

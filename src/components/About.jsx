@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import profilePic from '../images/profile_pic.jpg'
+import resume from '../assets/resume.pdf'
 
 const About = () => {
   return (
@@ -17,9 +17,8 @@ const About = () => {
           <p className="text-left text-xl md:ml-6">I'm a full-stack Software Engineer currently based in Boston, MA. Experienced in JavaScript/Node.js, React, Ruby, PostgreSQL, Docker, and a variety of AWS services.</p>
           <p className="text-left text-xl md:ml-6">Most recently, I built <a className="font-koulen text-[#66AC9A] text-2xl" href="https://chimera-deploy.dev" target="_blank" rel="noreferrer">Chimera</a>, an open-source tool for automating canary deployments of containerized microservices.</p>
           <div className="flex place-content-center text-xl">
-            <a href="#resume" className="grow max-w-sm py-1 mx-1 border border-black rounded-full uppercase text-center hover:bg-black hover:text-white" target="_blank" rel="noreferrer">Resume</a>
+            <a href={resume} className="grow max-w-sm py-1 mx-1 border border-black rounded-full uppercase text-center hover:bg-black hover:text-white" target="_blank" rel="noreferrer">Resume</a>
             <a href="https://chimera-deploy.dev/" className="grow max-w-sm py-1 mx-1 border border-black rounded-full uppercase text-center hover:bg-black hover:text-white" target="_blank" rel="noreferrer">Read the Writeup</a>
-            {/* <Link to="/projects" className="grow max-w-sm mx-1 py-1 border border-black rounded-full uppercase text-center hover:bg-black hover:text-white">Projects</Link> */}
           </div>
         </div>      
       </div>

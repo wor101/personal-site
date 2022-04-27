@@ -6,7 +6,6 @@ const navLinkFormatting = "flex flex-col justify-center px-3 h-14 bg-black font-
 const NavLink = ({ href, text, toggleDropdown}) => {
   return (
     <Link to={href} className={navLinkFormatting} onClick={toggleDropdown}>{text}</Link>
-    // <a href={href} className={navLinkFormatting} onClick={toggleDropdown}>{text}</a>
   )
 }
 

@@ -3,7 +3,6 @@ import coreSpace from '../images/space-ship-core-space.jpg'
 import mello from '../images/mello-screenshot.png'
 import requestotron from '../images/requestotron.png'
 import npcTracker from '../images/dungeons-and-dragons-npc-tracker.jpg'
-import mackinaw from '../images/mackinaw_sunset_1.jpg'
 
 const ProjectSummary = ({ image, name, description, tech }) => {
 

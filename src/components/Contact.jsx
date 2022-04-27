@@ -69,9 +69,6 @@ const FindMe = () => {
   )
 }
 
-
-
-
 const Contact = () => {
   return (
     <div className="flex place-content-center min-h-screen bg-white">
